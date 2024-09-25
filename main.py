@@ -15,5 +15,13 @@ def print_neighbours(node):
     print(graph[node])
 
 
+def check_if_connected(node1, node2):
+    if node1 in graph[node2]:
+        print(True)
+    else:
+        print(False)
+
+
 
 print_neighbours('A')
+check_if_connected('A', 'B')
