@@ -1,3 +1,6 @@
+from stack import stack
+
+
 graph = {
     'A':['B','C'],
     'B':['A','K'],
@@ -11,17 +14,33 @@ graph = {
     'K':['B']
 }
 
-def print_neighbours(node):
-    print(graph[node])
 
+stack_obj = stack()
 
-def check_if_connected(node1, node2):
-    if node1 in graph[node2]:
-        print(True)
-    else:
-        print(False)
+current_node = 'J'
+visited_nodes = [current_node]
+
+stack_obj.push(current_node)
 
 
 
-print_neighbours('A')
-check_if_connected('A', 'B')
+while
+
+
+
+
+
+# def print_neighbours(node):
+#     print(graph[node])
+#
+#
+# def check_if_connected(node1, node2):
+#     if node1 in graph[node2]:
+#         print(True)
+#     else:
+#         print(False)
+#
+#
+#
+# print_neighbours('A')
+# check_if_connected('A', 'B')
