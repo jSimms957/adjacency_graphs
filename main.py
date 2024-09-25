@@ -12,3 +12,9 @@ graph = {
 }
 
 
+def print_neighbours(node):
+    print(graph[node])
+
+
+
+print_neighbours('A')
