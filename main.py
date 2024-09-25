@@ -11,7 +11,6 @@ graph = {
     'K':['B']
 }
 
-
 def print_neighbours(node):
     print(graph[node])
 
